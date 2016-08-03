@@ -54,7 +54,7 @@ namespace PhotoSharingApp.Universal.ViewModels
         private readonly IDialogService _dialogService;
 
         /// <summary>
-        /// The hero iamges
+        /// The hero images
         /// </summary>
         private ObservableCollection<Photo> _heroImages;
 
@@ -158,6 +158,14 @@ namespace PhotoSharingApp.Universal.ViewModels
                     NotifyPropertyChanged(nameof(HeroImages));
                 }
             }
+        }
+
+        /// <summary>
+        /// Gets the hero image scroll timer.
+        /// </summary>
+        public DispatcherTimer HeroImageScrollTimer
+        {
+            get { return _heroImageScrollTimer; }
         }
 
         /// <summary>
