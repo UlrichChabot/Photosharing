@@ -23,9 +23,12 @@
 //  ---------------------------------------------------------------------------------
 
 using Microsoft.Practices.ServiceLocation;
+using PhotoSharingApp.Universal.Models;
 using PhotoSharingApp.Universal.Unity;
 using PhotoSharingApp.Universal.ViewModels;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
+using System;
 
 namespace PhotoSharingApp.Universal.Views
 {
